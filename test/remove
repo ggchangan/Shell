@@ -1,0 +1,2 @@
+/opt/magneto/bin/mgremove -type objecttype -id $1
+/opt/magneto/bin/mgindex remove_by_objecttype -id $1

@@ -1,0 +1,6 @@
+#创建基础目录
+mkdir -p /data/log
+mkdir -p /opt
+chmod 777 /data /data/log /opt
+
+

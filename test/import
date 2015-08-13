@@ -1,0 +1,2 @@
+#mgsqlimport -dbtype mysql -u root -p root123 -h 192.168.40.10 -db mgsearch -table xxx -uid 1
+mgsqlimport -dbtype mysql -u root -p root123 -h 192.168.40.10 -db mghardware -table hardware -uid 1

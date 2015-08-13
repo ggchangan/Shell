@@ -1,0 +1,21 @@
+#安装脚本，此安装脚本，用于在配置之后
+
+
+#配置服务
+
+#配置之后，初始化服务
+mginitdb -debug
+mginites
+
+#启动服务
+nohup mgstartdb-script > /data/log/nohup.out &
+nohup mgstartes-script > /data/log/nohup.out &
+nohup mgdbserver > /data/log/nohup.out &
+nohup mgsearchserver > /data/log/nohup.out &
+
+#查看数据节点状态
+nodetool status
+
+#检测
+mgtestdb
+mgtestes
